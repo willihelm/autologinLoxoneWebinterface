@@ -27,4 +27,10 @@ new Builder()
       .then(() => {
         // driver.manage().window().maximize()
       })
+      .catch((ex) => {
+        console.log(ex)
+      })
+  })
+  .catch((ex) => {
+    console.log(ex)
   })
